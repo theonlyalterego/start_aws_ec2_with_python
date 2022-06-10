@@ -17,5 +17,5 @@ install requirements:
 ## run the script
 
 
-`python3 start.py <name of ec2 instance>`
+`python3 start.py --name <name of ec2 instance>`
 
