@@ -62,15 +62,6 @@ def startup(instance_name):
             print(tag_str + " : " + id + " : " + state)
             id, tag_str, state = get_state(instance_name)
 
-        # print('Starting instance...')
-        # start_response = client.start_instances(
-        #     InstanceIds=[
-        #         id,
-        #     ]
-        # )
-        # c_states = (state
-        #               for state in start_response['StartingInstances'])
-
         for c_state in c_states:
             print("now: " + c_state["CurrentState"]["Name"])
     else:
