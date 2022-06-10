@@ -5,7 +5,7 @@ This is a simple script to start an EC2 instance in AWS by name.
 
 ## setup aws credentials
 
-configure your `~/.aws/config` and `~/.aws/credentials` correctly this uses the default aws creds.
+configure your `~/.aws/config` and `~/.aws/credentials` correctly; this uses the default aws creds.
 
 ## install python3 script requirements
 
